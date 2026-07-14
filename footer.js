@@ -10,7 +10,6 @@ class Footer extends HTMLElement {
     }
 }
 
-
 customElements.define('shared-footer', Footer);
 
 
