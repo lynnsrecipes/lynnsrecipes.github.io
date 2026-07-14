@@ -1,0 +1,138 @@
+/* by Jeff Mccowan 10/11/25 */
+/* used for html for Lynn's Recipes PDF recipes */
+    *{
+		padding:0;
+		margin:0;
+		background-color: #f2f0ff;
+		
+		}
+   body{
+	   font-family: Georgia,  sans-serif;
+   }
+   .m-nav{
+      position: sticky;
+	  width:98%;
+	  top: 0;
+	  padding-top: 10px;
+	  padding-left: 20px;
+	  padding-bottom: 20px;
+	  background-image: linear-gradient(to bottom,#b8adfd,#f2f0ff);
+	  }
+   .m-nav a{
+      text-decoration: underline;
+      font-size: 17px;
+      padding-right: 10px;
+      padding-left: 20px;
+	  background: rgba(0,0,0,0); 
+      }
+    .m-nav p{
+	   font-style: italic;
+	  background: rgba(0,0,0,0); 
+	}
+	.recipes{
+      padding-left: 30px;
+	  padding-top: 5px;
+	  }
+	.recipes a{
+	     line-height: 1.5; 
+	  }
+	.recipes a:hover{
+      background-color: #f2f0ff;
+      color: blue;
+	  font-size:125%;
+     }
+	h1{
+      font-size: 24px;
+      text-align: left;
+      padding-left: 50px;
+      background: rgba(0,0,0,0);
+	  text-shadow: 1px 1px #f2f0ff;
+	  font-family: Arial;
+	  font-style: italic;
+    }
+	.bmark{
+	   display: block;
+	   position: relative;
+       top: -100px;
+       visibility: hidden; 
+	}
+	.bmarktop{
+	   display: block;
+	   position: relative;
+       top: -10px;
+ /*      visibility: hidden; */
+	}
+	.footer{
+		font-size: 80%;
+	}
+	.findbutton{
+		background-color: #806afe;
+		color: #ffffff;
+		padding: 4px 4px;
+		margin-top: 4px;
+		
+	}
+	.findinput{
+		padding: 4px 4px;
+		margin-top: 4px;
+	}
+	.logo{
+		display: block;
+		background: rgba(0,0,0,0);
+		height: 60px;
+		padding-bottom: 10px;
+	}
+	.homeicon{
+		background: transparent;
+		width: 32px;
+	}
+	
+	.dropbtn {
+		background-color: #8E74EA;
+		color: white;
+		padding: 6px;
+		font-size: 14px;
+		border: none;
+		cursor: pointer;
+		border-radius: 10px;
+		
+	}
+
+	.dropdown {
+		position: relative;
+		display: inline-block;
+		background: transparent;
+	}
+
+	.dd-content {
+		display: none;
+		position: absolute;
+		background-color: #8E74EA;
+		min-width: 200px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		font-size: 12px;
+		border-radius: 10px;
+	}
+
+	.dd-content a {
+		color: black;
+		font-siz: 10px;
+		padding: 3px 10px;
+		text-decoration: none;
+		display: block;
+		color: white;
+	}
+
+	.dd-content a:hover {
+		background-color: #F1f1f1;
+		color:#8E74EA;
+		border-radius: 10px;
+	}
+
+	.dropdown:hover .dd-content {
+		display: block;
+	}
+
+	.dropdown:hover .dropbtn {
+		background-color: #8E74EA;
+	}

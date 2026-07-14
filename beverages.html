@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="robots" content="noindex, nofollow">
+   <meta name="author" content="Lynn's Recipes">
+   <title>Lynn's Recipes - Beverages</title>
+   <link rel="stylesheet" href="mainbody.css">
+   <link rel="icon" type="image/x-icon" href="favicon.ico">
+   <script src="mainbody.js"></script>
+   <script src="mainheader.js" defer></script>
+   <script src="recipesbody.js" defer></script>
+   <script src="footer.js" defer></script>
+   <style>
+	 article:not(.beverages){
+		display:none;
+	}
+
+	article:has(.beverages){
+		display: inherit;
+	}
+
+   </style>
+
+</head>
+<body onload="myWidthFunction()">
+
+    <shared-mainheader></shared-mainheader>
+	<div  style="font-size: 200%; padding-left: 30px;">Beverages</div><br>
+    <shared-recipesbody><br></shared-recipesbody>
+	<shared-footer></shared-footer>
+</body>
+</html>
