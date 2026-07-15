@@ -9,6 +9,7 @@
    body{
 	   font-family: Georgia,  sans-serif;
    }
+
    .m-nav{
       position: sticky;
 	  width:98%;
@@ -20,7 +21,7 @@
 	  }
    .m-nav a{
       text-decoration: underline;
-      font-size: 17px;
+      font-size: 16px;
       padding-right: 10px;
       padding-left: 20px;
 	  background: rgba(0,0,0,0); 
@@ -41,7 +42,7 @@
       color: blue;
 	  font-size:125%;
      }
-	h1{
+ h1{
       font-size: 24px;
       text-align: left;
       padding-left: 50px;
@@ -91,7 +92,7 @@
 		background-color: #8E74EA;
 		color: white;
 		padding: 6px;
-		font-size: 14px;
+		font-size: 16px;
 		border: none;
 		cursor: pointer;
 		border-radius: 10px;
@@ -103,6 +104,15 @@
 		display: inline-block;
 		background: transparent;
 	}
+	
+	.dropdown:hover .dd-content {
+		display: block;
+	}
+
+	.dropdown:hover .dropbtn {
+		background-color: #8E74EA;
+		
+	}
 
 	.dd-content {
 		display: none;
@@ -110,13 +120,13 @@
 		background-color: #8E74EA;
 		min-width: 200px;
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-		font-size: 12px;
+		font-size: 16px;
 		border-radius: 10px;
 	}
 
 	.dd-content a {
 		color: black;
-		font-siz: 10px;
+		font-size: 16px;
 		padding: 3px 10px;
 		text-decoration: none;
 		display: block;
@@ -127,12 +137,7 @@
 		background-color: #F1f1f1;
 		color:#8E74EA;
 		border-radius: 10px;
+		
 	}
 
-	.dropdown:hover .dd-content {
-		display: block;
-	}
-
-	.dropdown:hover .dropbtn {
-		background-color: #8E74EA;
-	}
+	

@@ -24,10 +24,13 @@ class MainHeader extends HTMLElement {
 							<a href="soups.html#">Soups</a>
 						</div>
 					</div>
-						&nbsp;&nbsp;To find a recipe: use Crtl+f or Command+f, select a letter above, or use: &nbsp;&nbsp;
-						<input class="findinput" type="text" id="searchInput" onkeyup="myInputTextFunction(event)" placeholder="Enter text to find">
-						<button class="findbutton" id="searchbutton" onclick="searchPage()">Find</button>
+					&nbsp;&nbsp;
+					<input type="text" id="searchBox" placeholder="Search..." onkeyup="searchSite(event)">
+					<input type="button" id="searchClear" value="Clear" onclick="clearSearch(event)">
 				</p>
+
+
+
 				<br>
 				<a href="#top" >Top</a>
 				<a href="#a" >A</a>

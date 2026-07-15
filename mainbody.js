@@ -10,7 +10,7 @@
 function myWidthFunction(){
   console.info("running width process");
   var thehght = collection3[0].offsetHeight;
-  document.getElementById("searchInput").value="";
+  document.getElementById("searchBox").value="";
   if(thehght<=167){
 		for (let i = 0; i < collectiontop.length; i++) {
 		  collectiontop[i].style.top =  "-167px";
@@ -41,24 +41,4 @@ function myWidthFunction(){
 		}
     }
 };
-function searchPage() {
-  const searchTerm = document.getElementById("searchInput").value;
-  console.log("running search");
-  if (searchTerm) {
-    window.find(searchTerm);
-	var theText=document.getElementById("searchbutton").innerText
-	console.info("The Button label is " + theText);
-	console.info("the searchTerm is " + searchTerm);
-	document.getElementById("searchbutton").innerText= "Find more";
-	
-  } else {
-//    alert("Please enter a search term.");
-	document.getElementById("searchbutton").innerText= "Find";
-  }
-};
-function myInputTextFunction(e){
-  let theLength=e.target.value.length;
-  if(theLength<1){
-	  document.getElementById("searchbutton").innerText= "Find";
-  };
-};
+;
