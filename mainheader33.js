@@ -1,0 +1,75 @@
+// Find the container element - mainheader
+const container = document.getElementById("content-mainheader");
+
+// HTML Header
+        container.innerHTML = `
+            
+
+
+			<div class="m-nav" >
+				<img class="logo"alt="Lynn's Recipes" src="logo.png"> 
+
+				<p >
+					<div class="dropdown" style="float:left;">
+						<button class="dropbtn">&#9776;&nbsp;Recipes</button>
+						<div class="dd-content">
+							<a href="index.html">Home Page</a>
+							<a href="appetizers.html">Appetizers</a>
+							<a href="beverages.html">Beverages</a>
+							<a href="breads.html">Breads</a>
+							<a href="desserts.html">Desserts</a>
+							<a href="maindishes.html">Main Dishes</a>	
+							<a href="miscellaneous.html">Miscellaneous</a>	
+							<a href="saladdressings.html">Salads & Dressings</a>	
+							<a href="sauces.html">Sauces</a>
+							<a href="sidedishes.html">Side Dishes</a>
+							<a href="soups.html#">Soups</a>
+						</div>
+					</div>
+					&nbsp;&nbsp;
+					<input type="text" id="searchBox" placeholder="Search..." onkeyup="searchSite(event)">
+					<input type="button" id="searchClear" value="Clear" onclick="clearSearch(event)">
+				</p>
+
+
+
+				<br>
+				<a href="#top" >Top</a>
+				<a href="#a" >A</a>
+				<a href="#b" >B</a>
+				<a href="#c" >C</a>
+				<a href="#d" >D</a>
+				<a href="#e" >E</a>
+				<a href="#f" >F</a>
+				<a href="#g" >G</a>
+				<a href="#h" >H</a>
+				<a href="#i" >I</a>
+				<a href="#j" >J</a>
+				<a href="#k" >K</a>
+				<a href="#l" >L</a>
+				<a href="#m" >M</a>
+				<a href="#n" >N</a>
+				<a href="#o" >O</a>
+				<a href="#p" >P</a>
+				<a href="#q" >Q</a>
+				<a href="#r" >R</a>
+				<a href="#s" >S</a>
+				<a href="#t" >T</a>
+				<a href="#u" >U</a>
+				<a href="#v" >V</a>
+				<a href="#w" >W</a>
+				<a href="#x" >X</a>
+				<a href="#y" >Y</a>
+				<a href="#z" >Z</a>
+			</br>	
+	
+			</div>
+
+			<div class="recipes bmarktop" id="top" ></div>
+
+        `;
+		
+
+
+
+
