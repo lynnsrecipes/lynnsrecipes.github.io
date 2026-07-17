@@ -1,6 +1,8 @@
-class RecipesBody extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+// Find the container element - recipesbody
+const container1 = document.getElementById("content-recipesbody");
+
+// HTML recipes
+        container1.innerHTML = `
 
 <article class="recipes"> <a class="maindishes"target="_blank" href="recipes/10 minute French Dip Sandwiches.pdf"  title="Opens the Recipe PDF in new tab or window.">10 minute French Dip Sandwiches</a><br></article>
 <article class="recipes"> <a class="maindishes"target="_blank" href="recipes/25 Minute Pot Roast.pdf"  title="Opens the Recipe PDF in new tab or window.">25 Minute Pot Roast</a><br></article>
@@ -712,10 +714,5 @@ class RecipesBody extends HTMLElement {
 <div class="recipes bmark" id="z" >Z</div>
 <article class="recipes"> <a class="desserts"target="_blank" href="recipes/Ziploc Bag Ice Cream.pdf"  title="Opens the Recipe PDF in new tab or window.">Ziploc Bag Ice Cream</a><br></article>
 
-
         `;
-    }
-}
-
-
-customElements.define('shared-recipesbody', RecipesBody);
+ 

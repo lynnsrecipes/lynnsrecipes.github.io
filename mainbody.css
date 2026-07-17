@@ -11,7 +11,7 @@
    }
 
    .m-nav{
-      position: sticky;
+      position: fixed;
 	  width:98%;
 	  top: 0;
 	  padding-top: 10px;
@@ -21,7 +21,7 @@
 	  }
    .m-nav a{
       text-decoration: underline;
-      font-size: 16px;
+      font-size: 1rem;
       padding-right: 10px;
       padding-left: 20px;
 	  background: rgba(0,0,0,0); 
@@ -29,9 +29,10 @@
     .m-nav p{
 	   font-style: italic;
 	  background: rgba(0,0,0,0); 
+	  padding-top: .5em;
 	}
 	.recipes{
-      padding-left: 30px;
+          padding-left: 30px;
 	  padding-top: 5px;
 	  }
 	.recipes a{
@@ -100,6 +101,7 @@
 	}
 
 	.dropdown {
+		
 		position: relative;
 		display: inline-block;
 		background: transparent;
@@ -140,4 +142,6 @@
 		
 	}
 
-	
+	#content-recipesbody {
+		
+	}

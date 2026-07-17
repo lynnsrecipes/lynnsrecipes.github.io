@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="robots" content="noindex, nofollow">
    <meta name="author" content="Lynn's Recipes">
-   <title>Lynn's Recipes - Appetizers</title>
+   <title>Lynn's Recipes - Appetizers</title>   
+   <link rel="icon" type="image/x-icon" href="favicon.ico">
    <link rel="stylesheet" href="mainbody.css">
    <link rel="stylesheet" href="search.css">
-   <link rel="icon" type="image/x-icon" href="favicon.ico">
    <script src="mainbody.js"></script>
    <script src="mainheader.js" defer></script>
    <script src="recipesbody.js" defer></script>
-   <script src="search.js"></script>
    <script src="footer.js" defer></script>
+   <script src="search.js" defer></script>
 	<style>
-	 article:not(.appetizers){
+		article:not(.appetizers){
 		display:none;
 	}
 
@@ -23,17 +23,24 @@
 		display: inherit;
 	}
 
-   </style>
+	</style>
+
+	
+
 
 </head>
-<body onload="myWidthFunction()">
+</body onload="mywidthFunction()">
 
 
+<section id="TheMainHeader">
+   <div id="content-mainheader"></div> 
+</section>
+<section id="TheRecipes">
+   <div  style="font-size: 200%; padding-left: 30px;">Appetizers</div><br>
+   <div id="content-recipesbody"></div> 
+</section>
+   <div id="content-footer"></div> 
+   <script src="fitheader.js" defer ></script>
 
-    <shared-mainheader>
-	</shared-mainheader>
-	<div  style="font-size: 200%; padding-left: 30px;">Appetizers</div><br>
-    	<shared-recipesbody><br></shared-recipesbody>
-	<shared-footer></shared-footer>
 </body>
 </html>

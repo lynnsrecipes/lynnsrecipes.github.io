@@ -13,8 +13,7 @@ searchBox.addEventListener("input", () => {
 function clearSearch(){
 	var theText=document.getElementById("article.recipes,div.bmark");
 	document.getElementById("searchBox").value="";
-	document.querySelectorAll("article.recipes,div.bmark").forEach(el => {
-console.info("The element is " + theText);		
+	document.querySelectorAll("article.recipes,div.bmark").forEach(el => {	
 	el.style.display ="";
 
 })};

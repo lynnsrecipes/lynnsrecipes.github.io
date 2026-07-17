@@ -1,13 +1,14 @@
-class MainHeader extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+// Find the container element - mainheader
+const container = document.getElementById("content-mainheader");
+
+// HTML Header
+        container.innerHTML = `
             
 
 
 			<div class="m-nav" >
 				<img class="logo"alt="Lynn's Recipes" src="logo.png"> 
 
-				<p >
 					<div class="dropdown" style="float:left;">
 						<button class="dropbtn">&#9776;&nbsp;Recipes</button>
 						<div class="dd-content">
@@ -23,15 +24,13 @@ class MainHeader extends HTMLElement {
 							<a href="sidedishes.html">Side Dishes</a>
 							<a href="soups.html#">Soups</a>
 						</div>
+						<br>
 					</div>
 					&nbsp;&nbsp;
 					<input type="text" id="searchBox" placeholder="Search..." onkeyup="searchSite(event)">
 					<input type="button" id="searchClear" value="Clear" onclick="clearSearch(event)">
-				</p>
-
-
-
-				<br>
+			
+				<p>
 				<a href="#top" >Top</a>
 				<a href="#a" >A</a>
 				<a href="#b" >B</a>
@@ -59,18 +58,14 @@ class MainHeader extends HTMLElement {
 				<a href="#x" >X</a>
 				<a href="#y" >Y</a>
 				<a href="#z" >Z</a>
-			</br>	
+			</p>	
 	
 			</div>
 
 			<div class="recipes bmarktop" id="top" ></div>
 
         `;
-    }
-}
-
-
-customElements.define('shared-mainheader', MainHeader);
+		
 
 
 

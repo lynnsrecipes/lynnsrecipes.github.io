@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="robots" content="noindex, nofollow">
    <meta name="author" content="Lynn's Recipes">
-   <title>Lynn's Recipes - Home</title>
-   <link rel="stylesheet" href="mainbody.css">
+   <title>Lynn's Recipes - Home</title>   
    <link rel="icon" type="image/x-icon" href="favicon.ico">
+   <link rel="stylesheet" href="mainbody.css">
+   <link rel="stylesheet" href="search.css">
    <script src="mainbody.js"></script>
    <script src="mainheader.js" defer></script>
    <script src="recipesbody.js" defer></script>
    <script src="footer.js" defer></script>
-</head>
-<body onload="myWidthFunction()">
+   <script src="search.js" defer></script>
+	<style>
+		body {
+    			<-- font-family: Arial, sans-serif; -->
+		}
 
-    <!-- Renders the connected element markup output directly here -->
-    <shared-mainheader></shared-mainheader>
-    <shared-recipesbody></shared-recipesbody>
-    <shared-footer></shared-footer>
+		.hidden {
+    			display: none;
+		}
+	</style>
+
+	
+
+
+</head>
+</body onload="mywidthFunction()">
+
+
+<section id="TheMainHeader">
+<div id="content-mainheader"></div> 
+</section>
+<section id="TheRecipes">
+<div id="content-recipesbody"></div> 
+</section>
+<div id="content-footer"></div> 
+   <script src="fitheader.js" defer ></script>
 
 </body>
 </html>

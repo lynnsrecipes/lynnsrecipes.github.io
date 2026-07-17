@@ -1,8 +1,12 @@
 #searchBox {
 	width: 300px;
-   	padding: 6px;
-	margin-bottom: 1px;\
+   	font-size: 1em;
+        padding: .4em;
+	margin-bottom: 1px;
 }
 #searchClear {
 	padding: 6px;
+        background-color: #8E74EA;
+        color:white;
+        font-size: 1.20em;
 }
