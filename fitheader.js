@@ -2,7 +2,6 @@
 	const theMainHeader = document.querySelector(".m-nav")
 
 	const mainHeaderH = theMainHeader.offsetHeight + "px";
-	let HeaderText = "jeff"
-		// mainHeaderH;
+	let HeaderText = mainHeaderH;
 	console.log(HeaderText);
 //	document.getElementById("TheRecipes").style.paddingTop = mainHeaderH;
