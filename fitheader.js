@@ -3,5 +3,5 @@
 
 	const mainHeaderH = theMainHeader.offsetHeight + "px";
 	let HeaderText = mainHeaderH;
-	console.log(HeaderText);
+	// console.log(HeaderText);
 	document.getElementById("TheRecipes").style.paddingTop = mainHeaderH;

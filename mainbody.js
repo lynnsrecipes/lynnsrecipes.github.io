@@ -6,11 +6,16 @@
    const collectiontop = document.getElementsByClassName("bmarktop");
    const collection2 = document.getElementsByClassName("bmark");
    const collection3 = document.getElementsByClassName("m-nav"); 
+   
 
-function myWidthFunction(){
-  console.info("running width process");
-  var thehght = collection3[0].offsetHeight;
-  document.getElementById("searchBox").value="";
+   function myWidthFunction(){
+      // console.info("running width process");
+      var thehght = collection3[0].offsetHeight;
+      document.getElementById("searchBox").value="";
+      let heightText= thehght + "px";
+      // console.log("heightText: " + heightText);
+      document.getElementById("TheRecipes").style.paddingTop = heightText;
+
   if(thehght<=167){
 		for (let i = 0; i < collectiontop.length; i++) {
 		  collectiontop[i].style.top =  "-167px";
