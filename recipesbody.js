@@ -112,7 +112,7 @@ const container1 = document.getElementById("content-recipesbody");
 <article class="recipes"> <a class="maindishes"target="_blank" href="recipes/Cheesy_Sausage_Pasta-Lynns_Recipes.pdf" title="Opens the Recipe PDF in new tab or window.">Cheesy Sausage Pasta -- Lynn's Recipes</a><br></article>
 <article class="recipes"> <a class="beverages"target="_blank" href="recipes/Cherry_Limeade.pdf" title="Opens the Recipe PDF in new tab or window.">Cherry Limeade</a><br></article>
 <article class="recipes"> <a class="desserts"target="_blank" href="recipes/Cherry_Pie_Bars.pdf" title="Opens the Recipe PDF in new tab or window.">Cherry Pie Bars</a><br></article>
-<article class="recipes"> <a class="breads"target="_blank" href="recipes/Chesse_Bread.pdf" title="Opens the Recipe PDF in new tab or window.">Chesse Bread</a><br></article>
+<article class="recipes"> <a class="breads"target="_blank" href="recipes/Cheese_Bread.pdf" title="Opens the Recipe PDF in new tab or window.">Cheese Bread</a><br></article>
 <article class="recipes"> <a class="maindishes"target="_blank" href="recipes/Chicken_Alfredo_Baked_Ziti.pdf" title="Opens the Recipe PDF in new tab or window.">Chicken Alfredo Baked Ziti</a><br></article>
 <article class="recipes"> <a class="maindishes"target="_blank" href="recipes/Chicken_and_Rice_Casserole.pdf" title="Opens the Recipe PDF in new tab or window.">Chicken and Rice Casserole</a><br></article>
 <article class="recipes"> <a class="maindishes"target="_blank" href="recipes/Chicken_Bundles-Lynns_Recipes.pdf" title="Opens the Recipe PDF in new tab or window.">Chicken Bundles -- Lynn's Recipes</a><br></article>
