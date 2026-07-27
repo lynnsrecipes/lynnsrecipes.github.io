@@ -3,7 +3,7 @@ const container1 = document.getElementById("content-recipesbody");
 
 // HTML recipes
         container1.innerHTML = `
-<article class="recipes"> <a class="maindishes"target="_blank" href="recipes/10_Minute_French_Dip_Sandwiches.pdf" title="Opens the Recipe PDF in new tab or window.">10 minute French Dip Sandwiches</a><br></article>
+<article class="recipes"> <a class="maindishes"target="_blank" href="recipes/10_minute_French_Dip_Sandwiches.pdf" title="Opens the Recipe PDF in new tab or window.">10 minute French Dip Sandwiches</a><br></article>
 <article class="recipes"> <a class="maindishes"target="_blank" href="recipes/25_Minute_Pot_Roast.pdf" title="Opens the Recipe PDF in new tab or window.">25 Minute Pot Roast</a><br></article>
 <article class="recipes"> <a class="maindishes"target="_blank" href="recipes/30-Minute_Cheesy_Mexican_Rice_Skillet.pdf" title="Opens the Recipe PDF in new tab or window.">30-Minute Cheesy Mexican Rice Skillet</a><br></article>
 <article class="recipes"> <a class="saladdressings"target="_blank" href="recipes/5_Cup_Fruit_Salad.pdf" title="Opens the Recipe PDF in new tab or window.">5 Cup Fruit Salad</a><br></article>
@@ -78,7 +78,7 @@ const container1 = document.getElementById("content-recipesbody");
 <article class="recipes"> <a class="appetizers"target="_blank" href="recipes/Buffalo_Chicken_&_Blue_Cheese_Dip.pdf" title="Opens the Recipe PDF in new tab or window.">Buffalo Chicken & Blue Cheese Dip</a><br></article>
 <article class="recipes"> <a class="appetizers"target="_blank" href="recipes/Buffalo_Chicken_Fries.pdf" title="Opens the Recipe PDF in new tab or window.">Buffalo Chicken Fries</a><br></article>
 <article class="recipes"> <a class="soups"target="_blank" href="recipes/Butternut_Squash_Soup.pdf" title="Opens the Recipe PDF in new tab or window.">Butternut Squash Soup</a><br></article>
-<article class="recipes"> <a class="soups"target="_blank" href="recipes/Butternut_Squash_Soup_WIGS_5_Minute_Meal.pdf" title="Opens the Recipe PDF in new tab or window.">Butternut Squash Soup -- WIGS Channel Challenge -- 5 Minute Meal</a><br></article>
+<article class="recipes"> <a class="soups"target="_blank" href="recipes/Butternut Squash Soup -- WIGS Channel Challenge -- 5 Minute Meal.pdf" title="Opens the Recipe PDF in new tab or window.">Butternut Squash Soup -- WIGS Channel Challenge -- 5 Minute Meal</a><br></article>
 <article class="recipes"> <a class="sidedishes"target="_blank" href="recipes/Butternut_Squash_with_Pecans_and_Maple_Syrup.pdf" title="Opens the Recipe PDF in new tab or window.">Butternut Squash with Pecans and Maple Syrup</a><br></article>
 <article class="recipes"> <a class="appetizers"target="_blank" href="recipes/Butterscotch_Dip.pdf" title="Opens the Recipe PDF in new tab or window.">Butterscotch Dip</a><br></article>
 <article class="recipes"> <a class="desserts"target="_blank" href="recipes/Butterscotch_Hard_Shell_Ice_Cream_Sauce.pdf" title="Opens the Recipe PDF in new tab or window.">Butterscotch Hard Shell Ice Cream Sauce</a><br></article>
@@ -112,7 +112,7 @@ const container1 = document.getElementById("content-recipesbody");
 <article class="recipes"> <a class="maindishes"target="_blank" href="recipes/Cheesy_Sausage_Pasta-Lynns_Recipes.pdf" title="Opens the Recipe PDF in new tab or window.">Cheesy Sausage Pasta -- Lynn's Recipes</a><br></article>
 <article class="recipes"> <a class="beverages"target="_blank" href="recipes/Cherry_Limeade.pdf" title="Opens the Recipe PDF in new tab or window.">Cherry Limeade</a><br></article>
 <article class="recipes"> <a class="desserts"target="_blank" href="recipes/Cherry_Pie_Bars.pdf" title="Opens the Recipe PDF in new tab or window.">Cherry Pie Bars</a><br></article>
-<article class="recipes"> <a class="breads"target="_blank" href="recipes/Cheese_Bread.pdf" title="Opens the Recipe PDF in new tab or window.">Cheese Bread</a><br></article>
+<article class="recipes"> <a class="breads"target="_blank" href="recipes/Chesse_Bread.pdf" title="Opens the Recipe PDF in new tab or window.">Chesse Bread</a><br></article>
 <article class="recipes"> <a class="maindishes"target="_blank" href="recipes/Chicken_Alfredo_Baked_Ziti.pdf" title="Opens the Recipe PDF in new tab or window.">Chicken Alfredo Baked Ziti</a><br></article>
 <article class="recipes"> <a class="maindishes"target="_blank" href="recipes/Chicken_and_Rice_Casserole.pdf" title="Opens the Recipe PDF in new tab or window.">Chicken and Rice Casserole</a><br></article>
 <article class="recipes"> <a class="maindishes"target="_blank" href="recipes/Chicken_Bundles-Lynns_Recipes.pdf" title="Opens the Recipe PDF in new tab or window.">Chicken Bundles -- Lynn's Recipes</a><br></article>
