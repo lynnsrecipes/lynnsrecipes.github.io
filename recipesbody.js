@@ -28,7 +28,7 @@ const container1 = document.getElementById("content-recipesbody");
 <article class="recipes"> <a class="sidedishes"target="_blank" href="recipes/Asparagus_Bundles.pdf" title="Opens the Recipe PDF in new tab or window.">Asparagus Bundles</a><br></article>
 <article class="recipes"> <a class="beverages"target="_blank" href="recipes/Autumn_Tea.pdf" title="Opens the Recipe PDF in new tab or window.">Autumn Tea</a><br></article>
 <div class="recipes bmark" id="b" >-B-</div>
-<article class="recipes"> <a class="maindishes"target="_blank" href="recipes/Bacon_&_Cheddar_Strata.pdf" title="Opens the Recipe PDF in new tab or window.">Bacon & Cheddar Strata</a><br></article>
+<article class="recipes"> <a class="maindishes"target="_blank" href="recipes/Bacon_and_Cheddar_Strata.pdf" title="Opens the Recipe PDF in new tab or window.">Bacon & Cheddar Strata</a><br></article>
 <article class="recipes"> <a class="sidedishes"target="_blank" href="recipes/Bacon_Potato_Salad_Applewood_Smoked_Salt.pdf" title="Opens the Recipe PDF in new tab or window.">Bacon Potato Salad Applewood Smoked Salt</a><br></article>
 <article class="recipes"> <a class="appetizers"target="_blank" href="recipes/Bacon_Wrapped_Pineapple_Bites.pdf" title="Opens the Recipe PDF in new tab or window.">Bacon Wrapped Pineapple Bites</a><br></article>
 <article class="recipes"> <a class="appetizers"target="_blank" href="recipes/Bacon_Wrapped_Smokies_with_Brown_Sugar_and_Butter.pdf" title="Opens the Recipe PDF in new tab or window.">Bacon Wrapped Smokies with Brown Sugar and Butter</a><br></article>
