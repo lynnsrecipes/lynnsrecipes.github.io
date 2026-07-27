@@ -3,7 +3,7 @@ const container1 = document.getElementById("content-recipesbody");
 
 // HTML recipes
         container1.innerHTML = `
-<article class="recipes"> <a class="maindishes"target="_blank" href="recipes/10_minute_French_Dip_Sandwiches.pdf" title="Opens the Recipe PDF in new tab or window.">10 minute French Dip Sandwiches</a><br></article>
+<article class="recipes"> <a class="maindishes"target="_blank" href="recipes/10_Minute_French_Dip_Sandwiches.pdf" title="Opens the Recipe PDF in new tab or window.">10 minute French Dip Sandwiches</a><br></article>
 <article class="recipes"> <a class="maindishes"target="_blank" href="recipes/25_Minute_Pot_Roast.pdf" title="Opens the Recipe PDF in new tab or window.">25 Minute Pot Roast</a><br></article>
 <article class="recipes"> <a class="maindishes"target="_blank" href="recipes/30-Minute_Cheesy_Mexican_Rice_Skillet.pdf" title="Opens the Recipe PDF in new tab or window.">30-Minute Cheesy Mexican Rice Skillet</a><br></article>
 <article class="recipes"> <a class="saladdressings"target="_blank" href="recipes/5_Cup_Fruit_Salad.pdf" title="Opens the Recipe PDF in new tab or window.">5 Cup Fruit Salad</a><br></article>
